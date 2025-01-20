@@ -30,11 +30,17 @@ before it can be safely applied to the care of animals.
 Technological Components:
 
   -ESP32 or Arduino board (if using an Arduino board, refer to the pinout and make any necessary adjustments).
+  
   -DH11 and DS18B20 sensors.
+  
   -Relay to activate and deactivate the actuator.
+  
   -An LM324 is necessary to isolate the ESP32 or Arduino from the high-power phase and prevent damage to the microcontroller.
+  
   -Actuators.
+  
   -Flask Server.
+  
   -Ngrok: Required for tunneling and exposing the local Flask server to the internet for remote access.
   
 Disclaimer:
