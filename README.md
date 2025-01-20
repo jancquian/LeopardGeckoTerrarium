@@ -17,10 +17,10 @@ Key Features:
   -LED Lamp Control via Pulse Width Modulation (PWM): The LED lamp is manually controlled using PWM, allowing the intensity of the light to be adjusted to simulate day-night cycles or replicate 
                                                       specific lighting conditions important for the gecko's well-being. However, this adjustment must be made manually and is not automatically dynamic.
  
-  -Real-time* Monitoring and Control via Flask Server**: Temperature and humidity data are displayed on a website hosted by a Flask server.
+  -Real-time(1) Monitoring and Control via Flask Server(2): Temperature and humidity data are displayed on a website hosted by a Flask server.
 
-*Real-time is treated as an approximation, since it cannot be precisely defined or perfectly implemented.
-**A tunnel service like Ngrok is required to make the local Flask server accessible remotely over the internet, allowing for real-time* monitoring and adjustments.
+(1) Real-time is treated as an approximation, since it cannot be precisely defined or perfectly implemented.
+(2) A tunnel service like Ngrok is required to make the local Flask server accessible remotely over the internet, allowing for real-time* monitoring and adjustments.
 
 Prototype Status:
 
