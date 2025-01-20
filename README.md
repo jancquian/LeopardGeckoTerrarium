@@ -1,11 +1,9 @@
 LeopardGeckoTerrarium: Automated Enclosure for Leopard Geckos (Prototype)
-This project was developed by Juan Carlos Garcia Jimenez and Josué Francisco Castañeda for the First International Congress of Intelligent Systems for the Environment (CISISMA-IPN) and 
-presented by Juan Carlos Garcia Jimenez, Josué Francisco Castañeda, Rogelio Hernández Vázquez, and Alejandra Guzmán Jiménez.
+This project was developed by Juan Carlos Garcia Jimenez and Josué Francisco Castañeda for the First International Congress of Intelligent Systems for the Environment (CISISMA-IPN) and presented by Juan Carlos Garcia Jimenez, Josué Francisco Castañeda, Rogelio Hernández Vázquez, and Alejandra Guzmán Jiménez.
 
 Overview:
 
-The LeopardGeckoTerrarium is a prototype of an intelligent, automated terrarium designed to monitor and control environmental factors for leopard geckos. The system integrates sensors and 
-actuators to create an optimal habitat, providing a controlled environment for the animal.
+The LeopardGeckoTerrarium is a prototype of an intelligent, automated terrarium designed to monitor and control environmental factors for leopard geckos. The system integrates sensors and actuators to create an optimal habitat, providing a controlled environment for the animal.
 
 Key Features:
 
@@ -46,7 +44,7 @@ Technological Components:
 Disclaimer:
 
 The LeopardGeckoTerrarium is currently a prototype and is not recommended for use with any living being. The system has been designed for experimental purposes and may not meet the necessary safety standards for animal welfare.
-As such, the team (Juan Carlos García Jiménez, Josué Francisco Castañeda, Rogelio Hernández Vázquez, and Alejandra Guzmán Jiménez) is not responsible for any harm or damage resulting from the use of this prototype, including but
+As such, the team (Juan Carlos Garcia Jimenez, Josué Francisco Castañeda, Rogelio Hernández Vázquez, and Alejandra Guzmán Jiménez) is not responsible for any harm or damage resulting from the use of this prototype, including but
 not limited to injury or death of animals, environmental damage, or equipment malfunction.
 
 Users are advised to proceed with caution, fully understanding the risks involved, and ensure that all components are tested and monitored thoroughly before considering any practical application.
