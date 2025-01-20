@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terrario - Monitor</title>
+    <style>
+        html {font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+        body {background-color: black;}
+        h1 {color: white;}
+        h3 {color: white;}
+        p {color: white;}
+        table {border-collapse: collapse; background-color: silver; border-radius: 10px;}
+    </style>
+    <script>
+        // Función para recargar la página cada 5 segundos
+        function recargarPagina() {
+            location.reload();
+        }
+        // Llamar a la función cada 5 segundos
+        setInterval(recargarPagina, 5000);
+    </script>
+</head>
+<body>
+    <h3>TEMPERATURA Y HUMEDAD AMBIENTAL:</h3>
+    <table border='1' style='margin-left: auto; margin-right: auto;'>
+        <tr><th>Zona</th><th>Temperatura</th><th>Humedad</th></tr>
+        <tr><td>Caliente</td><td>{{dato_1}}</td><td>{{dato_2}}</td></tr>
+        <tr><td>Central</td><td>{{dato_3}}</td><td>{{dato_4}}</td></tr>
+        <tr><td>Fria</td><td>{{dato_5}}</td><td>{{dato_6}}</td></tr>
+    </table>>
+        <h3>TEMPERATURA DEL SUSTRATO:</h3>
+    <table border='1' style='margin-left: auto; margin-right: auto;'>
+        <tr><th>Zona</th><th>Temperatura</th></tr>
+        <tr><td>Fria</td><td>{{dato_7}}</td></tr>
+        <tr><td>Caliente</td><td>{{dato_8}}</td></tr>
+    </table>>
+
+</body>
+</html>

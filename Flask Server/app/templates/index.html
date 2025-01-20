@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terrario - Principal</title>
+    <style>
+        html {font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+        body {background-color: black;}
+        h1 {color: white;}
+        h3 {color: white;}
+        p {color: white;}
+        table {border-collapse: collapse; background-color: silver; border-radius: 10px;}
+        button {
+            background-color #c0c0c0;
+            color: #000000;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 150px;
+            height: 40px;
+        }
+        button:hover {background-color: #a0a0a0}
+    </style>
+    <script>
+        function redireccion(url){window.location.href = url;}
+    </script>
+</head>
+<body>
+    <h3>MENU PRINCIPAL TERRARIO</h3>
+    <div>
+        <button id="b_conf" onclick="redireccion('/config')">CONFIGURACIÓN</button>>
+        <button id="b_moni" onclick="redireccion('/monitor')">MONITOR</button>>
+    </div>
+</body>
+</html>

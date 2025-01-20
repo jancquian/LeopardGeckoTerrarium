@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terrario</title>
+    <style>
+        html {font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+        body {background-color: black;}
+        h1 {color: white;}
+        h3 {color: white;}
+        p {color: white;}
+        table {border-collapse: collapse; background-color: silver; border-radius: 10px;}
+    </style>
+    <script>
+        // Función para recargar la página cada 5 segundos
+        function recargarPagina() {
+            location.reload();
+        }
+        // Llamar a la función cada 5 segundos
+        setInterval(recargarPagina, 5000);
+    </script>
+</head>
+<body>
+    <h3>AJUSTES DE LAMPARA:</h3>
+    <form action="{{url_for('obtener_configuracion')}}" method='POST'>
+        <label for='lampwm' style='color:white;'>Ingresa la intensidad (0% a 100%):</label>
+        <input type='text' id='lampwm' name='lampwm'><br>
+        <label for='temax' style='color:white;'>Ingresa la temperatura max (0C a 100C):</label>
+        <input type='text' id='temax' name='temax'><br>
+        <label for='temin' style='color:white;'>Ingresa la temperatura min (0C a 100C):</label>
+        <input type='text' id='temin' name='temin'>
+        <button type='submit'>Establecer</button>
+    </form>
+</body>
+</html>
+
+
