@@ -1,3 +1,5 @@
+#CISIMA Project Showcase
+
 LeopardGeckoTerrarium: Automated Enclosure for Leopard Geckos (Prototype)
 This project was developed by Juan Carlos Garcia Jimenez, Josué Francisco Castañeda, Rogelio Hernández Vázquez, and Alejandra Guzmán Jiménez for the First International Congress of Intelligent Systems for the Environment (CISIMA-IPN). 
 
